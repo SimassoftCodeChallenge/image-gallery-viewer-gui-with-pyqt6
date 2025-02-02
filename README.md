@@ -29,3 +29,41 @@ This project is useful for building a GUI application using one of the best GUI 
 **Required Files**: You need to have a folder with some images.
 
 **IDE**: Use any IDE.
+
+## Steps to Use `requirements.txt`:
+
+If you want to set up the same environment on another machine or later, you can use the `requirements.txt` to install all the required dependencies.
+
+
+1. **Create a New Virtual Environment**:
+   If you haven't already set up a virtual environment, you can create one using the following command:
+
+    ```bash
+    python -m venv new_venv
+
+2. **Activate the Virtual Environment**:
+  Once your virtual environment is created, activate it with the following command:
+
+    - Windows:
+
+    ```bash
+    .\new_venv\Scripts\activate    
+    ```
+    - Mac/Linux:
+
+    ```bash
+    source new_venv/bin/activate
+    ```
+
+3. **Install Dependencies from requirements.txt**:
+After activating your virtual environment, install the required dependencies by running:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+    This command will install all the packages listed in the requirements.txt file into your new virtual environment.
+
+    
+
+
